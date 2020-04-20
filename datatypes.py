@@ -100,3 +100,17 @@ import  struct
 # C = X & B
 # print(C)
 
+L = [1,2,3]
+print(L)
+D = L[:]
+print(D)
+E = D.copy()
+print(E)
+F = L
+F[0] = 4
+print(F)
+print(L)
+
+print(L is F)
+print(E is D)
+print(E == D)
