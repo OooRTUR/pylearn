@@ -56,3 +56,35 @@ Fraction - дробные числа
 сериализация - байты в объекты, объекты в байты
 
 !!!для копирования списков: newlist = list[:] или newlist = list.copy()
+
+stdout по умолчанию направляется в окно вывода - можно в файл
+
+A = Y if X else Z
+
+list(filter(bool,L)) - Вывод, все данные являющиеся True
+
+pass - оператор заполнитель
+
+for (key, value) in dict:
+	print(key, value)
+	
+итерационные средства python:
+	zip, enumerate,
+функция range - итерируемый объект
+
+срезы:
+S = 'abcdefghijk'
+for c in S[::2]: print(c, end=' ')
+out:: a c e g i k
+
+zip
+L1 = [1,2,3,4]
+L2 = [5,6,7,8]
+zip(L1, L2)
+for (x,y) in zip(L1,L2):
+	print(x,y)
+	
+enumerate
+S = 'spam'
+for(i, item) is enumerate(S):
+	print(S)
