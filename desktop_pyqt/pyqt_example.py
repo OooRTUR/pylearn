@@ -14,7 +14,6 @@ class Example(QWidget):
         self.setWindowIcon(QIcon('time.png'))
         self.center()
 
-
         self.setToolTip('This is a <b>QWidget</b> widget')
 
         btn = QPushButton('Button', self)
